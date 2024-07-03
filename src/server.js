@@ -1,5 +1,5 @@
 const { Server } = require('socket.io');
-const io = new Server(https://connectify16.onrender.com/,{
+const io = new Server(process.env.PORT || 5000,{
     cors:{
         origin:'*',
         methods:['GET','POST']
