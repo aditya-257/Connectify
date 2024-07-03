@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Connectify/static/css/main.f855e6bc.css",
+    "main.js": "/Connectify/static/js/main.e1701c28.js",
+    "static/js/453.5565870f.chunk.js": "/Connectify/static/js/453.5565870f.chunk.js",
+    "index.html": "/Connectify/index.html",
+    "main.f855e6bc.css.map": "/Connectify/static/css/main.f855e6bc.css.map",
+    "main.e1701c28.js.map": "/Connectify/static/js/main.e1701c28.js.map",
+    "453.5565870f.chunk.js.map": "/Connectify/static/js/453.5565870f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e1701c28.js"
+  ]
+}
