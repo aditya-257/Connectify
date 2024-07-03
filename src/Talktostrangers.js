@@ -134,7 +134,7 @@ export default function Talktostrangers() {
         let lastTypingTime = new Date().getTime();
       
         // Set the timer length to 3 seconds.
-        var timerLength = 3000;
+        var timerLength = 4000;
       
         // Set a timer to check if the user has stopped typing.
         setTimeout(() => {
