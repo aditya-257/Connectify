@@ -1,8 +1,11 @@
 const { Server } = require('socket.io');
-const io = new Server(process.env.PORT || 5000,{
-    cors:{
-        origin:'*',
-        methods:['GET','POST']
+const port = process.env.PORT || 5000;
+console.log(`Server listening on port ${port}`);
+
+const io = new Server(port, {
+    cors: {
+        origin: '*',
+        methods: ['GET', 'POST']
     }
 });
 let count = 0;
