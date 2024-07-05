@@ -4,7 +4,7 @@ const WebSocketContext = createContext(null);
 export const WebSocketProvider = ({ children }) => {
     const [socket, setSocket] = useState(null);
     const connect = () => {
-        const ws = io("https://connectify21.onrender.com");
+        const ws = io("https://connectify22.onrender.com");
         setSocket(ws);
         return ws;
     };
