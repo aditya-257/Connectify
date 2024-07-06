@@ -2,7 +2,7 @@ import React, { useMemo,useCallback,useEffect, useState, useRef } from "react";
 import TextField from '@mui/material/TextField';
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
-import { useWebSocket } from '../../backend/WebSocketContext';
+import { useWebSocket } from 'WebSocketContext';
 import Alert from '@mui/material/Alert';
 
 export default function Talktostrangers() {
