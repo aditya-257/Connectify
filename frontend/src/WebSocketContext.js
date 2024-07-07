@@ -4,7 +4,7 @@ const WebSocketContext = createContext(null);
 export const WebSocketProvider = ({ children }) => {
     const [socket, setSocket] = useState(null);
     const connect = () => {
-        const ws = io("ws:https://connectify22.onrender.com");
+        const ws = io("connectify2.netlify.app");
         setSocket(ws);
         return ws;
     };
