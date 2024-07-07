@@ -11,12 +11,13 @@ http.listen(8080, () => {
 });
 
 const { Server } = require('socket.io');
-const io = new Server(process.env.PORT || 5000,{
-    cors:{
-        origin:'*',
-        methods:['GET','POST']
-    }
-});
+const io = require('socket.io')(http);
+// const io = new Server(process.env.PORT || 5000,{
+//     cors:{
+//         origin:'*',
+//         methods:['GET','POST']
+//     }
+// });
 let count = 0;
 let flag = 0;
 const clients = new Map();
